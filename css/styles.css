@@ -919,16 +919,33 @@ margin-bottom: 20px;
 }
 
 .sign-button {
+  position: relative;
   display: inline-block;
-  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 29px;
+  text-align: start;
+
+
  border: 0px;
 width: 200px;
   height: 50px;
  background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  color:#FFFFFF;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88px;
+    letter-spacing: 0.06em;
+    color: #FFFFFF;
   cursor: pointer;
+}
+
+.icon-send {
+  position: absolute;
+  top: 13px;
+  left: 148px;
 }
 
 .input-footer {
@@ -946,6 +963,8 @@ border: 1px solid rgba(255, 255, 255, 0.3);
   background-color: var(--background-footer);
   margin-right: 12px;
 }
+
+
 
 .current {
 position: relative;
