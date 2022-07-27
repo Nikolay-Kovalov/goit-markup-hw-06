@@ -907,11 +907,11 @@ margin-left: 93px;
 
 .footer-field-name {
 display: block;
-margin-bottom: 30px;
+margin-bottom: 20px;
 
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  /* line-height: 1.14px; */
   text-transform: uppercase;
 
   color: #FFFFFF;
