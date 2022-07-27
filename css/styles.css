@@ -346,6 +346,7 @@ margin-bottom: 4px;
 }
 
 .input-area {
+  display: inline-block;
   height: 40px;
 
 }
